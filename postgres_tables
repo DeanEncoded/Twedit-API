@@ -1,0 +1,18 @@
+// users table
+CREATE TABLE users (
+  ID SERIAL PRIMARY KEY,
+  name VARCHAR(30),
+  username VARCHAR(30),
+  password VARCHAR(250),
+  access_token VARCHAR(50),
+  verified BOOLEAN NOT NULL DEFAULT false
+);
+
+// tweets table
+CREATE TABLE tweets (
+  ID SERIAL PRIMARY KEY,
+  tweet_by INT,
+  tweet_text VARCHAR(280),
+  tweet_time INT,
+  edited BOOLEAN NOT NULL DEFAULT false
+);
