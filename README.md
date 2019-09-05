@@ -67,7 +67,7 @@ Once your database is up and running, clone the repository:
 git clone https:\\github.com\DeanEncoded\Twedit-API.git
 ```
 
-CD into the cloned directory and run `npm get packages`
+cd into the cloned directory and run `npm install`
 
 **NOTE** : Don't forget to input your postgres connection info in the file `db/index.js`
 
