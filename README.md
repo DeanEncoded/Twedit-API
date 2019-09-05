@@ -1,7 +1,7 @@
 # Twedit-API
 An ExpressJS REST API for the Twitter clone, Twedit.
 
-You can find the repository for the Twedit app [here](https:\\github.com\DeanEncoded\Twedit).
+You can find the repository for the Twedit app [here](https://github.com/DeanEncoded/Twedit).
 
 ## API ENDPOINTS
 #### data endpoints
