@@ -1,4 +1,4 @@
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const helper = require('../helper')
 const Router = require('express-promise-router')
 const db = require('../db')
