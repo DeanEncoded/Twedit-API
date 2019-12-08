@@ -19,10 +19,10 @@ FORM DATA: `name, username, password`
 FORM DATA: `id, access_token, tweet_text`
 
 */tweet/edit* - allows a user to edit a tweet (Within the first 60 seconds of posting)
-FORM DATA: `id, access_token, tweet_id`
+FORM DATA: `id, access_token, tweet_id, tweet_text`
 
 */tweet/delete* - allows a user to delete a tweet
-FORM DATA: `id, access_token, tweet_id, tweet_text`
+FORM DATA: `id, access_token, tweet_id`
 
 ### tweets
 */tweets/all* - returns all tweets available in the tweets table
